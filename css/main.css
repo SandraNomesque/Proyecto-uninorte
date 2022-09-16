@@ -1,0 +1,47 @@
+* {
+    margin:10; /* establece la amrgen para los 4 lados*/
+    padding:10; /*establece el espacio de relleno requerido por todos los lados de un elemento. */
+  }
+
+body{
+        background-color:darkcyan;   
+    }
+
+p{   
+    color:white;
+    /*text-align: justify; /*justifiacr el texto*/
+    text-align: right;
+    margin : 40px;
+}
+
+h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+    font-size:40px; /*especifica la dimensión de la letra*/
+    padding-top: 60px; /* establece el espacio de relleno requerido en la parte superior del elemento*/
+    margin-right:50px;
+}
+
+a {
+    font-size: 30px; /*especifica la dimensión de la letra*/
+    padding: 10px;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
+    color: white;
+}
+
+ul {/*lista*/
+
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 10px; /* Separamos la lista de la izquierda */
+}
+ul li::before { /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\2022"; /* Insertamos el marcador */
+    padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: white; /* Coloreamos la viñeta */
+    padding-right: 10px;
+    font-size: 50px;
+    line-height: 25px;/* mmm*/
+    vertical-align: -11px;
+   /* width: 15px;*/
+
+    }
