@@ -1,27 +1,123 @@
 * {
     margin:10; /* establece la amrgen para los 4 lados*/
     padding:10; /*establece el espacio de relleno requerido por todos los lados de un elemento. */
-  }
+    box-sizing:border-box;
+    text-decoration: none;
+}
 
 body{
         background-color:darkcyan;   
-    }
-
-p{   
-    color:white;
-    /*text-align: justify; /*justifiacr el texto*/
-    text-align: right;
-    margin : 40px;
+        background-image: url("imagenes/humanizacion.jpg");
+        width: 100%;
+        height: 20%;
 }
+
 
 h1{
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; /*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
-    font-size:40px; /*especifica la dimensión de la letra*/
-    padding-top: 60px; /* establece el espacio de relleno requerido en la parte superior del elemento*/
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
     margin-right:50px;
+    padding-top: 20px;
+    color: white;
+    font-size: 50px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;/*define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado*/
+    justify-content: center;
+      
+    /*padding-top: 60px; /* establece el espacio de relleno requerido en la parte superior del elemento*/
+   
 }
 
+#Pimg{
+    width: 600px;
+    height: 400px;
+    margin-left:40px;
+    padding-left: 10px;
+    margin-right: 60px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    float:right;
+
+}
+#p1{
+    
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:flex-end;
+    
+}
+
+#p2{
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:flex-end;
+    
+}
+
+#p3{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 60px;
+    padding-left: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:flex-end;
+    
+}
+
+#li1{
+    width: 100%;
+    height: auto;
+    margin-left: 150px;
+    text-align:left;
+    align-items:left;
+    justify-content: center;
+    color:white;
+    font-size: 25;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#li2{
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+    text-align:left;
+    align-items:flex-end;
+    justify-content: center;
+    color: white;
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+/* sandra*/
 a {
     font-size: 30px; /*especifica la dimensión de la letra*/
     padding: 10px;/*establece el espacio de relleno requerido por todos los lados de un elemento*/
@@ -44,4 +140,11 @@ ul li::before { /* Añadimos contenido antes de cada elemento de la lista */
     vertical-align: -11px;
    /* width: 15px;*/
 
+    }
+
+    p{   
+        color:white;
+        /*text-align: justify; /*justifiacr el texto*/
+        text-align: right;
+        margin : 40px;
     }
