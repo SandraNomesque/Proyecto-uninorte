@@ -2,7 +2,7 @@
     margin:10; /* establece la amrgen para los 4 lados*/
     padding:10; /*establece el espacio de relleno requerido por todos los lados de un elemento. */
     box-sizing:border-box;
-    text-decoration: none;
+   
 }
 
 body{
@@ -140,14 +140,14 @@ ul li::before { /* Añadimos contenido antes de cada elemento de la lista */
     vertical-align: -11px;
    /* width: 15px;*/
 
-    }
+}
 
-    p{   
+p{   
         color:white;
         /*text-align: justify; /*justifiacr el texto*/
         text-align: right;
         margin : 40px;
-    }
+}
 /* claudia*/
 
 .BodyLogin {
@@ -181,3 +181,92 @@ p {
 
 }
 
+/* Dainer*/
+#img3{
+    width: 600px;
+    height: 400px;
+    margin-left:40px;
+    padding-left: 10px;
+    margin-right: 60px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    float:right;
+
+}
+
+/*Dainer*/
+.container1{
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.container1 h3{
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 30px; 
+    color: white;  
+ }
+ 
+.container1 p{
+   text-align: justify;
+   margin-top: 10px;
+   font-size: 25px; 
+   margin-left: 20px; 
+   font-family: 'Times New Roman', Times, serif; 
+   padding-top: 0px; /* margen superior del elemento*/
+   padding-bottom: 0px; /* margen inferior del elemento*/
+
+}
+
+
+.container1 li {/*lista*/
+
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 10px; /* Separamos la lista de la izquierda */
+    font-size: 25px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#img1, #img2{
+    border-radius: 5%;
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+}
+
+#img1{
+    float: right;
+}
+#img2{
+    float: left;
+}
+
+
+#liInicio{
+   margin-top: 10px;
+   font-size: 25px; 
+   font-size: 20px; 
+   display: inline;
+   text-align: justify;
+}
+
+
+.container2 a{
+  
+  font-size: 35px; 
+  font-family: 'Times New Roman'; 
+  display: inline;
+    /* border: dotted 3px white ;/* recuadro*/
+ }
+ #img3{
+    width: 60px;
+    height: 60px;
+    margin: 20px; 
+   
+    display:inline-block;
+   /* vertical-align:top; */
+    margin:0 0 4px 4px;  
+  
+}
